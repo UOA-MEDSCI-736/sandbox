@@ -1,0 +1,18 @@
+this is test
+
+once i fork your repo, i cloned that to my working directory:
+
+dit clone https://gitub.com/user-name/forked-repository.git
+
+once i commit changes i make, i push it to my origin:
+git push origin 
+
+but, i want to stay up to date with your newer tasks, 
+so i make a connection with you (upstream repository):
+git remote add upstream https://github.com/UOA-MEDSCI-736/sandbox.git
+
+now that we are connected, i bring in the new task that you might create:
+git fetch upstream
+git merge upstream/master
+
+
