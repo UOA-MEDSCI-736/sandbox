@@ -1,0 +1,20 @@
+check it out , Fab!
+I want to submit my assignments to you
+
+once I fork your repository, I clone that to my working directory:
+
+git clone https://github.com/CallumChalmers29/forked-repository.git
+
+Once I commit changes I make, I push it to my origin:
+
+git push
+
+But I want to stay up date with your newer tasks, so I make a connection with you (upstream repository)
+
+git remote add upstream https://gihub.com/boss-username/original-respository.git
+
+Now that we are connected, I bring in the new task that you might create
+
+git fetch upstream
+
+git merge upstream/master
